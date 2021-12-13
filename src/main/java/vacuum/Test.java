@@ -29,7 +29,7 @@ public class Test {
 		String line = br.readLine();
 		int count = 0;
 		
-		while((line != null) && (count < 95000000))  {
+		while((line != null) && (count < 950))  {
 			
 				count = count + 1;
 				String[] arr = line.split(",");
